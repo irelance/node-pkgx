@@ -1,0 +1,22 @@
+{
+  "name": "pkgx",
+  "version": "1.0.0",
+  "description": "Yet anther pkg, tiny binary and custom icon",
+  "main": "bin/pkgx.js",
+  "bin": {
+    "pkgx": "bin/pkgx.js",
+    "upx": "bin/upx.js",
+    "ResourceHacker": "bin/ResourceHacker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irelance/node-pkgx.git"
+  },
+  "keywords": [],
+  "author": "irelance",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irelance/node-pkgx/issues"
+  },
+  "homepage": "https://github.com/irelance/node-pkgx#readme"
+}
