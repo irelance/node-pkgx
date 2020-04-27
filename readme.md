@@ -12,7 +12,7 @@
 
 sudo apt install wine32
 
-sudo npm i -g pkgx
+sudo npm i -g @irelance/pkgx
 
 pkgx --help
 

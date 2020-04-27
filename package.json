@@ -1,5 +1,5 @@
 {
-  "name": "pkgx",
+  "name": "@irelance/pkgx",
   "version": "1.0.0",
   "description": "Yet anther pkg, tiny binary and custom icon",
   "main": "bin/pkgx.js",
