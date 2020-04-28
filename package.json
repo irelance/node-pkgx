@@ -1,12 +1,15 @@
 {
   "name": "@irelance/pkgx",
-  "version": "1.0.0",
-  "description": "Yet anther pkg, tiny binary and custom icon",
+  "version": "2.0.0",
+  "description": "Yet anther pkg, tiny binary and customisable",
   "main": "bin/pkgx.js",
   "bin": {
     "pkgx": "bin/pkgx.js",
     "upx": "bin/upx.js",
     "ResourceHacker": "bin/ResourceHacker.js"
+  },
+  "scripts": {
+    "release": "git push && npm publish --access=public"
   },
   "repository": {
     "type": "git",

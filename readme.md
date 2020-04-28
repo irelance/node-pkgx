@@ -7,24 +7,50 @@
 
 # 2. usage
 
+## 2.1. simple usage
+
+install wine
 ```bash
 # ubuntu 18
-
 sudo apt install wine32
 
-sudo npm i -g @irelance/pkgx
+# macos
+brew install wine
+```
 
+install global
+
+```bash
+# you may need sudo on linux
+npm i -g @irelance/pkgx
+```
+
+```bash
+pkgx create pkgxproject
+
+cd pkgxproject
+
+npm run build
+```
+
+## 2.2. more info
+
+you can get help from command:
+
+```
 pkgx --help
 
-pkgx -t host -d dist index.js
+pkgx help create
+
+pkgx help build
 ```
 
 # 3. version check list
 
 - node8-win-x86 (v)
 - node8-win-x64 (v)
-- node10-win-x86 (x)
-- node10-win-x64 (x)
+- node10-win-x86 (x) pkg pack crash
+- node10-win-x64 (x) pkg pack crash
 - node12-win-x86 (v)
 - node12-win-x64 (v)
 - node13-win-x86 (v)
@@ -32,8 +58,8 @@ pkgx -t host -d dist index.js
 - node14-win-x86 (v)
 - node14-win-x64 (v)
 
-- node4-linux-x64 (d)
-- node6-linux-x64 (d)
+- node4-linux-x64 (d) you need to find polyfill to support new nodejs feature
+- node6-linux-x64 (d) you need to find polyfill to support new nodejs feature
 - node8-linux-x64 (v)
 - node10-linux-x64 (v)
 - node12-linux-x64 (v)
@@ -48,7 +74,7 @@ pkgx -t host -d dist index.js
 
 # 4. attention
 
-you may change your code to es5 when use nodejs 8.
+you may change your code to es5 when use nodejs 8.(This project already done for you)
 
 if you use babel, you may use regenerator-runtime for asycn/await/generator
 
